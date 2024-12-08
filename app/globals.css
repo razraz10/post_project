@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.postForm__block{
+  @apply mb-4
+}
+
+.postForm__label{
+  @apply font-medium text-gray-900 block mb-2
+}
+
+.postForm__input{
+  @apply ring text-sm w-full rounded-sm p-2 text-gray-900 shadow-sm ring-inset focus:ring-indigo-600
+}
+
+.btn{
+  @apply m-2 bg-blue-500 hover:bg-blue-600 text-white font-bold py-2 px-4 rounded
+}
+
+.btn_delete{
+  @apply m-2 bg-red-500 hover:bg-red-600 text-white font-bold py-2 px-4 rounded
+
+}
